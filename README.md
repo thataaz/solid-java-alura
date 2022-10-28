@@ -24,7 +24,7 @@ As entidades de classes/módulos/funções devem estar abertas para extensão e 
 
 ### Princípio da substituição de Liskov (Liskov substitution principle)
 ```
-“As classes derivadas devem ser substituíveis pelas suas classes bases”.
+  “As classes derivadas devem ser substituíveis pelas suas classes bases”.
 ```
 
 Esse é o princípio que traz a ideia de **herança**. Temos uma classe pai, que geralmente possui atributos genéricos e temos uma classe filha, que herda os atributos da classe pai e pode ter outros atributos específicos para si mesma.
@@ -32,7 +32,32 @@ Esse é o princípio que traz a ideia de **herança**. Temos uma classe pai, que
 ![image](https://user-images.githubusercontent.com/59610437/198609212-d0587dca-8d58-4304-806e-4e39af67b103.png)
 
 ### Princípio de segregação de Interface (Interface segregation principle)
+```
+  “Classes não devem ser forçadas a depender de métodos que não usam.” 
+```
 
 Esse princípios diz para criar interfaces refinadas e específicas, e essas são melhores que interfaces genéricas. Não devemos ser forçados a depender das interfaces que não iremos utilizar. Esse princípio lida com as desvantagens da implementação de grandes interfaces únicas.
 
 ![image](https://user-images.githubusercontent.com/59610437/198610770-acc4a710-e9d4-4bee-a165-c104a06c36c1.png)
+
+### Princípio da inversão de dependência (Dependency inversion principle)
+O princípio da inversão de dependência traz a ideia de que:
+
+```
+  “Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender da abstração.”
+```
+
+```
+  “Abstrações não devem depender de detalhes. Os detalhes devem depender das abstrações.”
+```
+
+Os módulos que são classes de alto nível devem depender de conceitos, também chamadas de abstrações independente de como funcionam, ou seja, a função da inversão de dependência faz com que os softwares se desassociem dos módulos.
+
+![image](https://user-images.githubusercontent.com/59610437/198612158-bccf9c63-4f9b-4b37-860a-ee7e30dd9b83.png)
+
+
+### Referências
+[Principios SOLID em Imagens](https://www.marcelogoberto.com.br/2020/08/principios-solid-em-imagens.html)
+[SOLID: guia completo sobre os 5 princípios da POO!](https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/)
+
+
