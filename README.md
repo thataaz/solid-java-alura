@@ -57,7 +57,9 @@ Os módulos que são classes de alto nível devem depender de conceitos, também
 
 
 ### Referências
+
 [Principios SOLID em Imagens](https://www.marcelogoberto.com.br/2020/08/principios-solid-em-imagens.html)
+
 [SOLID: guia completo sobre os 5 princípios da POO!](https://blog.betrybe.com/linguagem-de-programacao/solid-cinco-principios-poo/)
 
 
