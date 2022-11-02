@@ -20,6 +20,10 @@ SOLID é um acrônimo criado por Michael Feathers, após observar que cinco prin
 ### Princípio aberto-fechado (Open–closed principle)
 As entidades de classes/módulos/funções devem estar abertas para extensão e fechado para modificação. Com esse principio podemos garantir que as alterações sendo realizadas através de extensão da entidade base nada será afetado no contexto dos códigos que utilizam a classe original.
 
+```
+  Isso significa que devemos poder criar novas funcionalidades e estender o sistema sem precisar modificar muitas classes já existentes
+```
+
 ![image](https://user-images.githubusercontent.com/59610437/198607075-c94e5bb7-788b-43ce-913e-7d2caf5d5f06.png)
 
 ### Princípio da substituição de Liskov (Liskov substitution principle)
