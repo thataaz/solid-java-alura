@@ -3,7 +3,7 @@ package br.com.alura.rh.service.tributacao;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-public class Promocao implements Reajuste {
+public class Promocao implements ReajusteTributavel {
 
     private BigDecimal valor;
     private LocalDate data;
@@ -23,10 +23,9 @@ public class Promocao implements Reajuste {
         return data;
     }
 
-    /*@Override
+    @Override
     public BigDecimal valorImpostoDeRenda() {
         return valor.multiply(new BigDecimal("0.1"));
-    }*/ //preciso implementar na Interface, porém todos terão que ter esse método mesmo que não faca sentido...
-    // Pra isso tem o principio da Segregracão de interface
+    }
 
 }
