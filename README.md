@@ -59,6 +59,13 @@ Os módulos que são classes de alto nível devem depender de conceitos, também
 
 ![image](https://user-images.githubusercontent.com/59610437/198612158-bccf9c63-4f9b-4b37-860a-ee7e30dd9b83.png)
 
+### Resuminho Básico
+
+* É mais seguro e boa prática para o nosso código depender de interfaces (classes abstratas, assinaturas de métodos e interfaces em si) do que das implementações de uma classe;
+* As interfaces são menos propensas a sofrer mudanças enquanto implementações podem mudar a qualquer momento;
+* O Princípio de Inversão de Dependência (DIP) -> implementações devem depender de abstrações e abstrações não devem depender de implementações;
+* Interfaces devem definir apenas os métodos que fazem sentido para seu contexto;
+* O Princípio de Segregação de Interfaces (ISP) diz que uma classe não deve ser obrigada a implementar um método que ela não precisa; (aqui pra mitigar posso colocar a Classe implementando duas Interfaces, por exemplo)
 
 ### Referências
 
